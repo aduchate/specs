@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version      = "2.0.0-v2"
   s.summary      = "HessianKit is a Framework for Objective-C 2.0 to allow OS X and iOS applications to seamlessly communicate with hessian web services."
   s.homepage     = "http://sourceforge.net/projects/hessiankit"
-  s.license      = { :type => 'Apache License, Version 2.0', :file => 'LICENSE.TXT' }
+  s.license      = { :type => 'Apache License, Version 2.0' }
   s.author       = { "Fredrik Olsson" => "peylow@gmail.com" }
   s.source       = { :git => "https://github.com/aduchate/HessianKit.git", :tag => s.version.to_s }
   s.ios.deployment_target = '4.0'
